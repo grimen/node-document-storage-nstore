@@ -1,0 +1,6 @@
+--ui exports
+--reporter spec
+--bail
+--slow 50
+--timeout 500
+--globals next
