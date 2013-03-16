@@ -8,6 +8,8 @@ var Storage = require('node-document-storage');
 module.exports = Storage.Spec('NStore', {
   module: require('..'),
   engine: require('nstore'),
+  id: 'nstore',
+  protocol: 'file',
   db: 'default-test',
   default_url: 'file:///tmp/default-test',
   authorized_url: undefined,
